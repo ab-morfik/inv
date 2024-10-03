@@ -8,16 +8,16 @@
     - name: Ajouter le fichier au dépôt Git local
       ansible.builtin.command:
         cmd: git add inventory.yaml
-        chdir: /var/lib/awx/projects/inv  # Répertoire local du dépôt Git
+        #chdir: inv/  # Répertoire local du dépôt Git
 
     - name: Faire un commit dans le dépôt Git local
       ansible.builtin.command:
         cmd: git commit -m "Mise a jour du fichier inventaire" inventory.yaml
-        chdir: /var/lib/awx/projects/inv  # Répertoire local du dépôt Git
+        #chdir: inv/  # Répertoire local du dépôt Git
       ignore_errors: yes
 
     - name: Pousser les modifications vers le dépôt distant
       ansible.builtin.command:
         cmd: git push -u origin main
-        chdir: /var/lib/awx/projects/inv      
+        #chdir: inv/      
 
