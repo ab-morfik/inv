@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function extract_hosts {
-work_dir="/var/lib/awx/projects/gen_inv_grp_marj"	
+work_dir="/var/lib/awx/projects/inv"	
 cat ${work_dir}/idmag.src | while read l
   do
     	  
