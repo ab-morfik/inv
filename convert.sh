@@ -1,7 +1,6 @@
 #!/bin/bash
 
 function extract_hosts {
-#work_dir="/var/lib/awx/projects/inv"	
 cat idmag.src | while read l
   do
     	  
@@ -11,6 +10,7 @@ cat idmag.src | while read l
 	    #$(echo "${l}" | awk -F '|' '{ print $3}' | sed s'/ //'g)\n"
 done
 }
+echo
 echo
 echo "GENERATION FICHIER INI"
 extract_hosts > idmag.ini && \
