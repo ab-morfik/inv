@@ -12,7 +12,7 @@
     - name: Cloner le dépôt Git si ce n'est pas déjà fait
       git:
         repo: 'git@github.com:ab-morfik/inv.git'
-        dest: '/var/lib/awx/projects/'
+        dest: '.'
         version: 'main'  # Branche que tu souhaites utiliser
         update: yes
 
