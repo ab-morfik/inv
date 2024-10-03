@@ -11,10 +11,10 @@
 
     - name: Cloner le dépôt Git si ce n'est pas déjà fait
       git:
-        repo: 'https://github.com/ab-morfik/inv.git'
+        repo: 'git@github.com:ab-morfik/inv.git'
         dest: '.'
         version: 'main'  # Branche que tu souhaites utiliser
-        update: yes
+        update: no
 
     - name: Ajouter le fichier au dépôt Git local
       ansible.builtin.command:
