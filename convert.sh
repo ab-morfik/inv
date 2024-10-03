@@ -23,6 +23,7 @@ sed -i -e s'/ansible_group=3/ansible_group=DIGIBAY/'g ${work_dir}/idmag.ini;
 sed -i -e s'/ansible_group=4/ansible_group=OTOP/'g  ${work_dir}/idmag.ini;
 sed -i -e s'/ansible_group=5/ansible_group=CITY/'g  ${work_dir}/idmag.ini;
 sed -i -e s'/ansible_group=6/ansible_group=OVS/'g  ${work_dir}/idmag.ini;
+sed -i -e s'/ansible_group=9/ansible_group=TEST/'g  ${work_dir}/idmag.ini;
 echo "DONE";
 ansible-inventory -i ${work_dir}/idmag.ini --list -y > ${work_dir}/inventory.yaml;
 
