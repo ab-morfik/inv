@@ -13,7 +13,7 @@ done
 }
 echo
 echo "GENERATION FICHIER INI"
-extract_hosts > /var/lib/awx/projects/gen_inv_grp_marj/idmag.ini && \
+extract_hosts > /var/lib/awx/projects/inv/idmag.ini && \
 echo "DONE"
 echo "REAJUSTEMENT DES GROUPES"
 
