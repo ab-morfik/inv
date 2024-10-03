@@ -3,5 +3,5 @@
   hosts: all
   tasks:
     - name: generation fichier inventory.yaml
-      script: /var/lib/awx/projects/inv/convert.sh
+      script: convert.sh
 
