@@ -560,3 +560,12 @@ all:
         pos9:
           ansible_group: MARJANE
           ansible_host: 192.168.100.9
+        pos990:
+          ansible_group: TEST
+          ansible_host: 192.168.0.20
+        pos991:
+          ansible_group: TEST
+          ansible_host: 192.168.0.21
+        pos992:
+          ansible_group: TEST
+          ansible_host: 192.168.0.22
