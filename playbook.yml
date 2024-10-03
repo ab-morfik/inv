@@ -5,6 +5,13 @@
     - name: generation fichier inventory.yaml
       script: convert.sh
 
+    - name: Cloner le dépôt Git si ce n'est pas déjà fait
+      git:
+        repo: 'https://github.com/ab-morfik/inv.git'
+        dest: '/var/lib/awx/projects/inv/'
+        version: 'main'  # Branche que tu souhaites utiliser
+        update: yes
+
     - name: Ajouter le fichier au dépôt Git local
       ansible.builtin.command:
         cmd: git add inventory.yaml
