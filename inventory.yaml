@@ -1,0 +1,562 @@
+all:
+  children:
+    ungrouped:
+      hosts:
+        pos1:
+          ansible_group: MARJANE
+          ansible_host: 192.168.110.9
+        pos10:
+          ansible_group: MARJANE
+          ansible_host: 192.168.102.9
+        pos101:
+          ansible_group: MARKET
+          ansible_host: 192.168.50.10
+        pos102:
+          ansible_group: MARKET
+          ansible_host: 192.168.80.10
+        pos103:
+          ansible_group: MARKET
+          ansible_host: 192.168.200.10
+        pos104:
+          ansible_group: MARKET
+          ansible_host: 192.168.201.10
+        pos105:
+          ansible_group: MARKET
+          ansible_host: 192.168.202.10
+        pos106:
+          ansible_group: MARKET
+          ansible_host: 192.168.91.10
+        pos107:
+          ansible_group: MARKET
+          ansible_host: 192.168.204.10
+        pos109:
+          ansible_group: MARKET
+          ansible_host: 192.168.206.10
+        pos11:
+          ansible_group: MARJANE
+          ansible_host: 192.168.103.9
+        pos110:
+          ansible_group: MARKET
+          ansible_host: 192.168.208.10
+        pos111:
+          ansible_group: MARKET
+          ansible_host: 192.168.209.10
+        pos114:
+          ansible_group: MARKET
+          ansible_host: 192.168.211.10
+        pos115:
+          ansible_group: MARKET
+          ansible_host: 192.168.213.10
+        pos116:
+          ansible_group: MARKET
+          ansible_host: 192.168.212.10
+        pos117:
+          ansible_group: MARKET
+          ansible_host: 192.168.216.10
+        pos118:
+          ansible_group: MARKET
+          ansible_host: 192.168.214.10
+        pos119:
+          ansible_group: MARKET
+          ansible_host: 192.168.215.10
+        pos12:
+          ansible_group: MARJANE
+          ansible_host: 192.168.104.9
+        pos120:
+          ansible_group: MARKET
+          ansible_host: 192.168.217.10
+        pos121:
+          ansible_group: MARKET
+          ansible_host: 192.168.210.10
+        pos122:
+          ansible_group: MARKET
+          ansible_host: 192.168.90.10
+        pos123:
+          ansible_group: MARKET
+          ansible_host: 192.168.218.10
+        pos124:
+          ansible_group: MARKET
+          ansible_host: 192.168.219.10
+        pos125:
+          ansible_group: MARKET
+          ansible_host: 192.168.220.10
+        pos126:
+          ansible_group: MARKET
+          ansible_host: 192.168.221.10
+        pos127:
+          ansible_group: MARKET
+          ansible_host: 192.168.222.10
+        pos128:
+          ansible_group: MARKET
+          ansible_host: 192.168.223.10
+        pos129:
+          ansible_group: MARKET
+          ansible_host: 192.168.224.10
+        pos13:
+          ansible_group: MARJANE
+          ansible_host: 192.168.105.9
+        pos133:
+          ansible_group: MARKET
+          ansible_host: 192.168.227.10
+        pos136:
+          ansible_group: MARKET
+          ansible_host: 192.168.147.10
+        pos138:
+          ansible_group: MARKET
+          ansible_host: 192.168.153.10
+        pos139:
+          ansible_group: MARKET
+          ansible_host: 192.168.154.10
+        pos14:
+          ansible_group: MARJANE
+          ansible_host: 192.168.109.9
+        pos140:
+          ansible_group: MARKET
+          ansible_host: 192.168.130.10
+        pos141:
+          ansible_group: MARKET
+          ansible_host: 192.168.159.10
+        pos142:
+          ansible_group: MARKET
+          ansible_host: 192.168.131.10
+        pos143:
+          ansible_group: MARKET
+          ansible_host: 192.168.133.10
+        pos144:
+          ansible_group: MARKET
+          ansible_host: 192.168.146.10
+        pos145:
+          ansible_group: MARKET
+          ansible_host: 192.168.135.10
+        pos146:
+          ansible_group: MARKET
+          ansible_host: 192.168.160.10
+        pos147:
+          ansible_group: MARKET
+          ansible_host: 192.168.165.10
+        pos148:
+          ansible_group: MARKET
+          ansible_host: 192.168.127.10
+        pos15:
+          ansible_group: MARJANE
+          ansible_host: 192.168.111.9
+        pos150:
+          ansible_group: MARKET
+          ansible_host: 192.168.150.10
+        pos151:
+          ansible_group: MARKET
+          ansible_host: 192.168.51.10
+        pos152:
+          ansible_group: MARKET
+          ansible_host: 192.168.59.10
+        pos153:
+          ansible_group: MARKET
+          ansible_host: 192.168.56.10
+        pos154:
+          ansible_group: MARKET
+          ansible_host: 192.168.58.10
+        pos155:
+          ansible_group: MARKET
+          ansible_host: 192.168.52.10
+        pos156:
+          ansible_group: MARKET
+          ansible_host: 192.168.62.10
+        pos157:
+          ansible_group: MARKET
+          ansible_host: 192.168.61.10
+        pos158:
+          ansible_group: MARKET
+          ansible_host: 192.168.63.10
+        pos159:
+          ansible_group: MARKET
+          ansible_host: 192.168.65.10
+        pos16:
+          ansible_group: MARJANE
+          ansible_host: 192.168.115.9
+        pos160:
+          ansible_group: MARKET
+          ansible_host: 192.168.64.10
+        pos161:
+          ansible_group: MARKET
+          ansible_host: 192.168.66.10
+        pos162:
+          ansible_group: MARKET
+          ansible_host: 192.168.74.10
+        pos163:
+          ansible_group: MARKET
+          ansible_host: 192.168.70.10
+        pos164:
+          ansible_group: MARKET
+          ansible_host: 192.168.76.10
+        pos165:
+          ansible_group: MARKET
+          ansible_host: 192.168.75.10
+        pos166:
+          ansible_group: MARKET
+          ansible_host: 192.168.78.10
+        pos167:
+          ansible_group: MARKET
+          ansible_host: 192.168.79.10
+        pos168:
+          ansible_group: MARKET
+          ansible_host: 192.168.81.10
+        pos169:
+          ansible_group: MARKET
+          ansible_host: 192.168.82.10
+        pos17:
+          ansible_group: MARJANE
+          ansible_host: 192.168.117.9
+        pos170:
+          ansible_group: MARKET
+          ansible_host: 192.168.170.10
+        pos171:
+          ansible_group: MARKET
+          ansible_host: 192.168.83.10
+        pos172:
+          ansible_group: MARKET
+          ansible_host: 192.168.84.10
+        pos173:
+          ansible_group: MARKET
+          ansible_host: 192.168.88.10
+        pos174:
+          ansible_group: MARKET
+          ansible_host: 192.168.87.10
+        pos175:
+          ansible_group: MARKET
+          ansible_host: 192.168.86.10
+        pos176:
+          ansible_group: MARKET
+          ansible_host: 192.168.89.10
+        pos177:
+          ansible_group: MARKET
+          ansible_host: 192.168.85.10
+        pos178:
+          ansible_group: MARKET
+          ansible_host: 192.168.93.10
+        pos179:
+          ansible_group: MARKET
+          ansible_host: 192.168.95.10
+        pos18:
+          ansible_group: MARJANE
+          ansible_host: 192.168.116.9
+        pos180:
+          ansible_group: MARKET
+          ansible_host: 192.168.96.10
+        pos181:
+          ansible_group: MARKET
+          ansible_host: 192.168.22.10
+        pos182:
+          ansible_group: MARKET
+          ansible_host: 192.168.23.10
+        pos183:
+          ansible_group: MARKET
+          ansible_host: 192.168.24.10
+        pos184:
+          ansible_group: MARKET
+          ansible_host: 192.168.26.10
+        pos185:
+          ansible_group: MARKET
+          ansible_host: 192.168.31.10
+        pos186:
+          ansible_group: MARKET
+          ansible_host: 192.168.27.10
+        pos187:
+          ansible_group: MARKET
+          ansible_host: 192.168.29.10
+        pos188:
+          ansible_group: MARKET
+          ansible_host: 192.168.32.10
+        pos189:
+          ansible_group: MARKET
+          ansible_host: 192.168.33.10
+        pos19:
+          ansible_group: MARJANE
+          ansible_host: 192.168.233.9
+        pos190:
+          ansible_group: MARKET
+          ansible_host: 192.168.34.10
+        pos191:
+          ansible_group: MARKET
+          ansible_host: 192.168.35.10
+        pos2:
+          ansible_group: MARJANE
+          ansible_host: 192.168.101.9
+        pos20:
+          ansible_group: MARJANE
+          ansible_host: 192.168.230.9
+        pos205:
+          ansible_group: MARKET
+          ansible_host: 192.168.134.10
+        pos206:
+          ansible_group: OTOP
+          ansible_host: 192.168.182.10
+        pos207:
+          ansible_group: OTOP
+          ansible_host: 192.168.181.10
+        pos209:
+          ansible_group: OTOP
+          ansible_host: 192.168.157.10
+        pos21:
+          ansible_group: MARJANE
+          ansible_host: 192.168.234.9
+        pos22:
+          ansible_group: MARJANE
+          ansible_host: 192.168.205.9
+        pos227:
+          ansible_group: CITY
+          ansible_host: 192.168.174.10
+        pos23:
+          ansible_group: MARJANE
+          ansible_host: 192.168.235.9
+        pos24:
+          ansible_group: MARJANE
+          ansible_host: 192.168.238.9
+        pos25:
+          ansible_group: MARJANE
+          ansible_host: 192.168.240.9
+        pos26:
+          ansible_group: MARJANE
+          ansible_host: 192.168.242.9
+        pos27:
+          ansible_group: MARJANE
+          ansible_host: 192.168.245.9
+        pos28:
+          ansible_group: MARJANE
+          ansible_host: 192.168.246.9
+        pos29:
+          ansible_group: MARJANE
+          ansible_host: 192.168.247.9
+        pos3:
+          ansible_group: MARKET
+          ansible_host: 192.168.21.10
+        pos30:
+          ansible_group: MARJANE
+          ansible_host: 192.168.248.9
+        pos301:
+          ansible_group: MARJANE
+          ansible_host: 192.168.231.9
+        pos31:
+          ansible_group: MARJANE
+          ansible_host: 192.168.249.9
+        pos32:
+          ansible_group: MARJANE
+          ansible_host: 192.168.250.9
+        pos33:
+          ansible_group: MARJANE
+          ansible_host: 192.168.251.9
+        pos34:
+          ansible_group: MARJANE
+          ansible_host: 192.168.253.9
+        pos35:
+          ansible_group: MARJANE
+          ansible_host: 192.168.252.9
+        pos36:
+          ansible_group: MARJANE
+          ansible_host: 192.168.254.9
+        pos37:
+          ansible_group: MARJANE
+          ansible_host: 192.168.112.9
+        pos38:
+          ansible_group: MARJANE
+          ansible_host: 192.168.38.9
+        pos39:
+          ansible_group: MARJANE
+          ansible_host: 192.168.39.9
+        pos4:
+          ansible_group: MARJANE
+          ansible_host: 192.168.44.9
+        pos40:
+          ansible_group: MARJANE
+          ansible_host: 192.168.40.9
+        pos401:
+          ansible_group: CITY
+          ansible_host: 192.168.171.10
+        pos402:
+          ansible_group: CITY
+          ansible_host: 192.168.43.10
+        pos403:
+          ansible_group: CITY
+          ansible_host: 192.168.48.10
+        pos404:
+          ansible_group: CITY
+          ansible_host: 192.168.106.10
+        pos405:
+          ansible_group: CITY
+          ansible_host: 192.168.107.10
+        pos41:
+          ansible_group: MARJANE
+          ansible_host: 192.168.41.9
+        pos45:
+          ansible_group: MARJANE
+          ansible_host: 192.168.45.9
+        pos5:
+          ansible_group: MARJANE
+          ansible_host: 192.168.20.9
+        pos501:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.225.9
+        pos502:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.229.9
+        pos503:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.232.9
+        pos504:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.236.9
+        pos505:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.237.9
+        pos506:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.241.9
+        pos507:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.243.9
+        pos508:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.144.9
+        pos509:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.145.9
+        pos510:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.148.9
+        pos511:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.149.9
+        pos512:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.151.9
+        pos513:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.155.9
+        pos514:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.156.9
+        pos515:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.132.9
+        pos516:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.143.9
+        pos517:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.141.10
+        pos518:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.142.9
+        pos519:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.138.9
+        pos520:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.139.9
+        pos521:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.140.9
+        pos523:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.136.9
+        pos524:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.129.9
+        pos525:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.124.9
+        pos526:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.125.9
+        pos527:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.126.9
+        pos528:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.128.9
+        pos529:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.54.9
+        pos530:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.152.9
+        pos531:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.53.9
+        pos532:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.55.9
+        pos533:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.57.9
+        pos534:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.71.9
+        pos535:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.67.9
+        pos536:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.69.9
+        pos537:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.73.9
+        pos538:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.68.9
+        pos539:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.72.9
+        pos540:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.77.9
+        pos541:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.118.9
+        pos542:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.92.9
+        pos543:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.94.9
+        pos544:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.28.9
+        pos545:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.37.9
+        pos546:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.42.9
+        pos547:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.49.9
+        pos548:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.167.9
+        pos596:
+          ansible_group: DIGIBAY
+          ansible_host: 192.168.92.30
+        pos598:
+          ansible_group: DIGIBAY
+          ansible_host: 10.2.3.13
+        pos6:
+          ansible_group: MARJANE
+          ansible_host: 192.168.10.9
+        pos657:
+          ansible_group: OVS
+          ansible_host: 192.168.191.9
+        pos658:
+          ansible_group: OVS
+          ansible_host: 192.168.46.10
+        pos659:
+          ansible_group: OVS
+          ansible_host: 192.168.175.10
+        pos7:
+          ansible_group: MARJANE
+          ansible_host: 192.168.30.9
+        pos8:
+          ansible_group: MARJANE
+          ansible_host: 192.168.60.9
+        pos9:
+          ansible_group: MARJANE
+          ansible_host: 192.168.100.9
